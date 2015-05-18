@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 import com.bazted.aamvp.R;
 import com.bazted.aamvp.act.EventActivity_;
+import com.bazted.aamvp.event.EventListPresenter;
+import com.bazted.aamvp.event.IEventListView;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;

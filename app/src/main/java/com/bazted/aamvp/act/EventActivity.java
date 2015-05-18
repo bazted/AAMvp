@@ -8,8 +8,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.bazted.aamvp.R;
-import com.bazted.aamvp.fragment.EventListPresenter;
-import com.bazted.aamvp.fragment.IEventListView;
+import com.bazted.aamvp.event.EventListPresenter;
+import com.bazted.aamvp.event.IEventListView;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;

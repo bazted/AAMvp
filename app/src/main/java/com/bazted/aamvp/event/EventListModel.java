@@ -1,4 +1,4 @@
-package com.bazted.aamvp.fragment;
+package com.bazted.aamvp.event;
 
 /**
  * @author tbazyshyn

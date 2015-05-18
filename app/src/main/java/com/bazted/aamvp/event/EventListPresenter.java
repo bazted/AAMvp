@@ -1,4 +1,4 @@
-package com.bazted.aamvp.fragment;
+package com.bazted.aamvp.event;
 
 import com.bazted.aamvp.mvp.presenter.MvpBasePresenter;
 
