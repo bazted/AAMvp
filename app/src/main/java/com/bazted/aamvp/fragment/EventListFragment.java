@@ -46,8 +46,6 @@ public class EventListFragment extends Fragment implements IEventListView {
     @InstanceState
     String[] data;
 
-    int time = 0;
-
     @AfterViews
     protected void start() {
         swipe_refresh_ll.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
