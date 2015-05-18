@@ -30,11 +30,14 @@ public class EventListPresenter extends MvpBasePresenter<IEventListView>
     public void loadEventList() {
         if (isViewAttached()) {
             getView().showLoading(true);
-            try {
-                Thread.sleep(3000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+        }
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        if (isViewAttached()) {
+
             time++;
             if (time % 2 == 0) {
                 getView().showError("forced error");
