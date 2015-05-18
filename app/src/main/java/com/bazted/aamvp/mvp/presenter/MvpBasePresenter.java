@@ -22,7 +22,7 @@ public class MvpBasePresenter<V extends MvpView> implements MvpPresenter<V> {
      * attached to avoid NullPointerExceptions
      */
     protected V getView() {
-        return viewRef.get();
+        return viewRef != null ? viewRef.get() : null;
     }
 
 
